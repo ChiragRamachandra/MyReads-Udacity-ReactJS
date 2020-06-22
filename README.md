@@ -1,4 +1,4 @@
-# My Reads - Udacity Project
+My Reads - Udacity Project
 
 
 Requirements: 
@@ -44,17 +44,4 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 
 Search Terms:
 'Android', 'Art', 'Artificial Intelligence', 'Astronomy', 'Austen', 'Baseball', 'Basketball', 'Bhagat', 'Biography', 'Brief', 'Business', 'Camus', 'Cervantes', 'Christie', 'Classics', 'Comics', 'Cook', 'Cricket', 'Cycling', 'Desai', 'Design', 'Development', 'Digital Marketing', 'Drama', 'Drawing', 'Dumas', 'Education', 'Everything', 'Fantasy', 'Film', 'Finance', 'First', 'Fitness', 'Football', 'Future', 'Games', 'Gandhi', 'Homer', 'Horror', 'Hugo', 'Ibsen', 'Journey', 'Kafka', 'King', 'Lahiri', 'Larsson', 'Learn', 'Literary Fiction', 'Make', 'Manage', 'Marquez', 'Money', 'Mystery', 'Negotiate', 'Painting', 'Philosophy', 'Photography', 'Poetry', 'Production', 'Programming', 'React', 'Redux', 'River', 'Robotics', 'Rowling', 'Satire', 'Science Fiction', 'Shakespeare', 'Singh', 'Swimming', 'Tale', 'Thrun', 'Time', 'Tolstoy', 'Travel', 'Ultimate', 'Virtual Reality', 'Web Development', 'iOS'
-
-To Deploy the package to Git hub Pages:
-
-go to package.json and add: "homepage": "https://myusername.github.io/my-app",
-npm install --save gh-pages
-Add these 2 in scripts "scripts": { "predeploy": "npm run build", "deploy": "gh-pages -d build" }
-npm run deploy
-Incase you run into errors for npm run deploy. Use via the GitHub Terminal.
-
-Also try: rm -rf node_modules/gh-pages/.cache
-
-so that the cache is cleared.
-
-Note: Useful resource to display github pages https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+# MyReads-Udacity-ReactJS
